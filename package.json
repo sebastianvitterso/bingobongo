@@ -1,0 +1,32 @@
+{
+  "name": "bingobongo",
+  "version": "1.0.0",
+  "description": "Bingo Bongo the Discord bot!",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianvitterso/bingobongo.git"
+  },
+  "author": "Sebastian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastianvitterso/bingobongo/issues"
+  },
+  "homepage": "https://github.com/sebastianvitterso/bingobongo#readme",
+  "devDependencies": {
+    "tslib": "^1.10.0"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "@typeit/discord": "^4.0.8",
+    "@types/node": "^14.0.27",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.2.6",
+    "ytdl-core": "^3.2.0"
+  }
+}
